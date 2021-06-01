@@ -6,7 +6,7 @@ class Parent1:
     def __init__(self, number1):
         print("from parent class", number1)
 
-class Child(Parent, Parent1):
+class Child(Parent, Parent1): ##super class inside child class
     def __init__(self):
         print("from child class")
         Parent1.__init__(self,"2")

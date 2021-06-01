@@ -1,5 +1,5 @@
 class Hello():
-    def __init__(self, *args, **kwargs):
+    def __init__(self, *args, **kwargs): # To know the usage of variables and dictionaries in classes
         self.args = args
         self.kwargs = kwargs
         print(self.args)
